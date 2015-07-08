@@ -1,8 +1,8 @@
 <?php
 
-require_once('uptimerobot.class.php');
+require 'vendor/autoload.php';
 
-$ur = new UptimeRobot("YOUR-API-KEY-HERE");   // instantiates new UptimeRobot object        
+$ur = new UptimeRobotClient\Client("YOUR-API-KEY-HERE");   // instantiates new UptimeRobot object        
 $ur->setFormat('json');                            // sets output format
 
 # getMonitors

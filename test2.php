@@ -1,8 +1,8 @@
 <?php
 
-require_once('uptimerobot.class.php');
+require 'vendor/autoload.php';
 
-$UR = new UptimeRobot("");        
+$UR = new UptimeRobotClient\Client("");        
 $UR->setFormat('json');   
 $UR->setApiKey("YOUR-API-KEY-HERE");            
 

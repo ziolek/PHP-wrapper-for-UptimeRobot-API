@@ -1,0 +1,27 @@
+{
+    "name": "ziolek/UptimeRobotClient",
+    "description": "Uptime Robot API Client",
+    "homepage": "http://github.com/ziolek/UptimeRobotClient",
+    "license": "MIT",
+    "keywords": ["uptimerobot"],
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Mark Boomaars"
+        },
+        {
+            "name": "Marek Ziółkowski"
+        }
+    ],
+
+    "require": {
+        "php": ">= 5.3.0",
+        "ext-curl": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "UptimeRobotClient\\": "src/UptimeRobotClient"
+        }
+    }
+}

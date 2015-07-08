@@ -1,6 +1,8 @@
 <?php
 
-class UptimeRobot
+namespace UptimeRobotClient;
+
+class Client
 {
 	private $base_uri = 'http://api.uptimerobot.com/';
 	private $apiKey;
@@ -11,7 +13,7 @@ class UptimeRobot
     * Public constructor function
     * 
     * @param mixed $apiKey optional
-    * @return UptimeRobot
+    * @return UptimeRobotClient\Client
     */
 	public function __construct($apiKey = null)
 	{
